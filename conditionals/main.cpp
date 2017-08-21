@@ -4,29 +4,36 @@ int main()
 {
 	//1. What do the following conditionals evaluate to if "A = true and B = false"
 	// A || B
+	//True
 
 	// A || B
+	//True
 
 	// !A
+	//False
 
 	// !(A && A)
+	//False
 
 	// B && A
-
+	//False
+	
 	//(!B || A)
-
+	//True
 
 	//2. Write an if statement that assigns 100 to the value of x when y is equal to zero
+
+
+
+
 
 	//3. Write a program that accepts an integer that represents the month of the year. 
 	//It should then display the number of days in that month. If a number that doesn’t correspond 
 	//to a month is entered then the program should display an error message. You must use a switch statement
 
 
-	//4. Redo problem 3 using if statements
+	
 
-
-	//5. Convert problem 2 into a ternary operator
 
 	//to a month is entered then the program should display an error message. You must use a switch statement
 	// take in user input
@@ -82,6 +89,34 @@ int main()
 	default:
 		std::cout << "Do you need mental help?\n";
 		break;
+		system("pause");
 	}
-	system("pause");
+	
+
+
+
+//4. Redo problem 3 using if statements
+	
+	int daysOfMonth;
+		std::cin >> daysOfMonth;
+		{
+		if (daysOfMonth == 1)
+			std::cout << "January has 31 days\n";
+
+		else if (daysOfMonth == 2)
+			std::cout << "Feb has 28 days\n";
+
+		else if (daysOfMonth == 3)
+			std::cout << "March has 31 days\n";
+
+
+
+			system("pause");
+
+	}
+//5. Convert problem 2 into a ternary operator
+
+
+	
+
 }
