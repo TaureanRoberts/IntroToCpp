@@ -17,11 +17,30 @@ int main()
 
 	// B && A
 	//False
+<<<<<<< HEAD
 	
 	//(!B || A)
 	//True
+=======
 
-	//2. Write an if statement that assigns 100 to the value of x when y is equal to zero
+	//(!B || A)
+	//True
+
+	//2. Write an if statement that assigns 100 to the value of x when y is equal to zero.
+	
+	std::cout << "100 is equal to x\n";
+	bool statementAssigned;
+	std::cin >> statementAssigned;
+	 
+	if (statementAssigned == 100)
+		std::cout << "x is equal to 100\n";
+	else (statementAssigned == 0);
+		std::cout << "y is equal to 0\n";
+
+
+		system("pause");
+>>>>>>> origin/master
+
 
 
 
@@ -32,10 +51,13 @@ int main()
 	//to a month is entered then the program should display an error message. You must use a switch statement
 
 
+<<<<<<< HEAD
 	
 
 
 	//to a month is entered then the program should display an error message. You must use a switch statement
+=======
+>>>>>>> origin/master
 	// take in user input
 	std::cout << "Pick a number between 1 and 12. And I will tell you what month it is.\n";
 
@@ -43,7 +65,6 @@ int main()
 
 	// the number must be between 1 and 12
 
-	//when the user inputs 1 we output "January"
 	int month;
 	std::cin >> month;
 	switch (month)
@@ -87,8 +108,9 @@ int main()
 		break;
 
 	default:
-		std::cout << "Do you need mental help?\n";
+		std::cout << "Do you need mental help? I said 1 through 12.\n";
 		break;
+<<<<<<< HEAD
 		system("pause");
 	}
 	
@@ -118,5 +140,85 @@ int main()
 
 
 	
+=======
+		
+	}
+
+
+
+
+	
+	
+	//4. Redo problem 3 using if statements
+	{
+        
+		std::cout << "Same as before, pick a number from 1 to 12 for a month\n";
+		float monthTwo;
+		std::cin >> monthTwo;
+
+
+		if (monthTwo == 1)
+			std::cout << "January has 31 days\n";
+
+		else if (monthTwo == 2)
+			std::cout << "Febuary has 28 days\n";
+
+		else if (monthTwo == 3)
+			std::cout << "March has 31 days\n";
+
+		else if (monthTwo == 4)
+			std::cout << "April has 30 days\n";
+
+		else if (monthTwo == 5)
+			std::cout << "May has 31 days\n";
+
+		else if (monthTwo == 6)
+			std::cout << "June has 30 days\n";
+
+		else if (monthTwo == 7)
+			std::cout << "July has 31 days\n";
+
+		else if (monthTwo == 8)
+			std::cout << "August has 31 days\n";
+
+		else if (monthTwo == 9)
+			std::cout << "September has 30 days\n";
+
+		else if (monthTwo == 10)
+			std::cout << "October has 31 days\n";
+
+		else if (monthTwo == 11)
+			std::cout << "November has 30 days\n";
+
+		else if (monthTwo == 12)
+			std::cout << "December has 31 days\n";
+
+		else
+			std::cout << "Im thinking that you cant follow simple rules\n";
+
+		}
+
+
+
+
+		
+
+	//5. Convert problem 2 into a ternary operator
+
+		int result = 0;
+
+		if (100 > 0)
+		{
+			result = 100;
+		}
+		else
+		{
+			result = 0;
+		}
+
+
+
+system("pause");
+>>>>>>> origin/master
 
 }
