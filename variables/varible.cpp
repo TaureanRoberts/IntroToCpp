@@ -50,7 +50,7 @@ int main()
 	//and store the result in variables called “a” and “b” print the result to screen.Write code 
 	//that swaps the values for these variables, then print the variables “a” and “b” again.
 	//You should comment your code.
-
+	
 	int a = 3;
 	int b = 7;
 	int temp;
@@ -66,8 +66,9 @@ int main()
 
 	return 0;
 	
-
+	
 	//4. Ask the user for 5 numbers and output the average of these numbers.		
+	
 	int a, b, c, d, e, avg;
 	cout << "Please enter FIVE numbers: \n";
 		cin >> a;
@@ -79,9 +80,10 @@ int main()
 
 			cout << "This is he average of the choosen numbers: " << avg;
 	    
-
+			
 	//5. Redo question 3 but allows the user to input the values to be swapped and provide information
 	//in the console proving the data was swapped.
+				
 			int a, b, temp;
 			cout << "Enter two random numbers: \n";
 			cin >> a >> b;
@@ -91,6 +93,7 @@ int main()
 			b = temp;
 
 			cout << "Numbers after the switch:  " << a << " " << b << endl;
+			
 
 	system("pause");
 
