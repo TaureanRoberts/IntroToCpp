@@ -17,47 +17,40 @@ int main()
 
 	// B && A
 	//False
-<<<<<<< HEAD
-	
-	//(!B || A)
-	//True
-=======
+
 
 	//(!B || A)
 	//True
+
+
+	//(!B || A)
+	//True
+
+
+
 
 	//2. Write an if statement that assigns 100 to the value of x when y is equal to zero.
+	int x = 100, y = 0;
 	
-	std::cout << "100 is equal to x\n";
-	bool statementAssigned;
-	std::cin >> statementAssigned;
-	 
-	if (statementAssigned == 100)
-		std::cout << "x is equal to 100\n";
-	else (statementAssigned == 0);
-		std::cout << "y is equal to 0\n";
 
-
+	if (x = 100){
+		std::cout << "x is equal to 100 \n";
+	}
+	else (y = 0);
+		std::cout << "y is equal to 0 \n";
+	
 		system("pause");
->>>>>>> origin/master
-
-
-
-
-
 
 	//3. Write a program that accepts an integer that represents the month of the year. 
 	//It should then display the number of days in that month. If a number that doesn’t correspond 
 	//to a month is entered then the program should display an error message. You must use a switch statement
 
 
-<<<<<<< HEAD
-	
+
 
 
 	//to a month is entered then the program should display an error message. You must use a switch statement
-=======
->>>>>>> origin/master
+
 	// take in user input
 	std::cout << "Pick a number between 1 and 12. And I will tell you what month it is.\n";
 
@@ -110,48 +103,16 @@ int main()
 	default:
 		std::cout << "Do you need mental help? I said 1 through 12.\n";
 		break;
-<<<<<<< HEAD
-		system("pause");
 	}
-	
-
-
-
-//4. Redo problem 3 using if statements
-	
-	int daysOfMonth;
-		std::cin >> daysOfMonth;
-		{
-		if (daysOfMonth == 1)
-			std::cout << "January has 31 days\n";
-
-		else if (daysOfMonth == 2)
-			std::cout << "Feb has 28 days\n";
-
-		else if (daysOfMonth == 3)
-			std::cout << "March has 31 days\n";
-
-
-
-			system("pause");
-
-	}
-//5. Convert problem 2 into a ternary operator
-
-
-	
-=======
 		
-	}
-
-
-
-
 	
-	
+
+
+
+
 	//4. Redo problem 3 using if statements
 	{
-        
+
 		std::cout << "Same as before, pick a number from 1 to 12 for a month\n";
 		float monthTwo;
 		std::cin >> monthTwo;
@@ -196,29 +157,16 @@ int main()
 		else
 			std::cout << "Im thinking that you cant follow simple rules\n";
 
-		}
+	}
 
 
-
-
-		
 
 	//5. Convert problem 2 into a ternary operator
-
-		int result = 0;
-
-		if (100 > 0)
-		{
-			result = 100;
-		}
-		else
-		{
-			result = 0;
-		}
+	
+	(x = 100, y = 0) ? 100 : 0;
+		
 
 
 
-system("pause");
->>>>>>> origin/master
-
+                 system("pause");
 }
