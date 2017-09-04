@@ -40,13 +40,48 @@ int main()
 
 	//3. Declare an array with the values 1 - 10;
 
-	int myNumbers[10] = { 1,2,3,4,5,6,7,8,9,10 };
-
-
-
+	
 
 
 	//4. Using the array created in problem 3 print the 5th index.
+
+
+	
+
+
+
+	//5. Using a loop, populate an array of size 10 with the values 10 - 1.
+
+	
+
+
+	//6. Create a an array of size five then ask the user to input five 
+	//number into the array. Display the largest and smallest numbers 
+	//to the console.
+
+
+	
+
+
+
+	//7. Create a program that creates a small 3x3 array of integers.Use a nested for 
+	//loop to initialise the numbers 1 - 9. Output the numbers in a grid format.
+
+
+	
+}
+
+int questionThree()
+{
+
+	int myNumbers[10] = { 1,2,3,4,5,6,7,8,9,10 };
+	//Prints the numbers 1 - 10
+
+	system("pause");
+}
+
+int questionFour()
+{
 
 	int myNumero[10] = { 1,2,3,4,5,6,7,8,9,10 };
 
@@ -59,7 +94,10 @@ int main()
 
 	system("pause");
 
-	//5. Using a loop, populate an array of size 10 with the values 10 - 1.
+}
+
+int questionFive()
+{
 
 	int countingDown[10] = { 10,9,8,7,6,5,4,3,2,1 };
 
@@ -76,19 +114,17 @@ int main()
 
 	system("pause");
 
+}
 
-	//6. Create a an array of size five then ask the user to input five 
-	//number into the array. Display the largest and smallest numbers 
-	//to the console.
-
-
-	
+int questionSix()
+{
 
 
 
-	//7. Create a program that creates a small 3x3 array of integers.Use a nested for 
-	//loop to initialise the numbers 1 - 9. Output the numbers in a grid format.
+}
 
+int questionSeven()
+{
 
 	int myTripleArray[3][3] = { { 1,2,3 },{ 4,5,6 },{ 7,8,9 } };
 	for (int i = 0; i < 3; i++)
@@ -102,4 +138,6 @@ int main()
 
 		system("pause");
 	}
+
+
 }
