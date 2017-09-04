@@ -1,7 +1,13 @@
 #include <iostream>
 
 
+void questionsList()
+{
 
+
+
+
+}
 
 int main()
 {
@@ -40,19 +46,19 @@ int main()
 
 	//3. Declare an array with the values 1 - 10;
 
-	
+	//go to line 74
 
 
 	//4. Using the array created in problem 3 print the 5th index.
 
 
-	
+	//go to line 83
 
 
 
 	//5. Using a loop, populate an array of size 10 with the values 10 - 1.
 
-	
+	//go to line 99
 
 
 	//6. Create a an array of size five then ask the user to input five 
@@ -118,9 +124,27 @@ int questionFive()
 
 int questionSix()
 {
+	int num1, num2, num3, num4, num5;
+	float Avg;
+
+	std::cout << "enter first number\n";
+	std::cin >> num1;
+
+	std::cout << "enter second number\n";
+	std::cin >> num2;
+
+	std::cout << "enter third number\n ";
+	std::cin >> num3;
+
+	std::cout << "enter fourth number \n";
+	std::cin >> num4;
+
+	std::cout << "enter the fifth number \n";
+	std::cin >> num5;
 
 
 
+	system("pause");
 }
 
 int questionSeven()
