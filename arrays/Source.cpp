@@ -1,12 +1,21 @@
 #include <iostream>
 
-
-void questionsList()
+void runArrays()
 {
 
 
 
 
+
+}
+
+int questionThree()
+{
+
+	int myNumbers[10] = { 1,2,3,4,5,6,7,8,9,10 };
+	//Prints the numbers 1 - 10
+
+	return 0;
 }
 
 int main()
@@ -45,14 +54,17 @@ int main()
 
 
 	//3. Declare an array with the values 1 - 10;
+	{
+		int myNumbers[10] = { 1,2,3,4,5,6,7,8,9,10 };
+		//Prints the numbers 1 - 10
 
-	//go to line 74
+		return 0;
 
-
+	}
 	//4. Using the array created in problem 3 print the 5th index.
 
 
-	//go to line 83
+	
 
 
 
@@ -77,14 +89,7 @@ int main()
 	
 }
 
-int questionThree()
-{
 
-	int myNumbers[10] = { 1,2,3,4,5,6,7,8,9,10 };
-	//Prints the numbers 1 - 10
-
-	system("pause");
-}
 
 int questionFour()
 {
@@ -98,7 +103,7 @@ int questionFour()
 
 
 
-	system("pause");
+	return 0;
 
 }
 
@@ -118,7 +123,7 @@ int questionFive()
 
 
 
-	system("pause");
+	return 0;
 
 }
 
@@ -144,7 +149,7 @@ int questionSix()
 
 
 
-	system("pause");
+	return 0;
 }
 
 int questionSeven()
@@ -160,7 +165,7 @@ int questionSeven()
 		}
 
 
-		system("pause");
+		return 0;
 	}
 
 

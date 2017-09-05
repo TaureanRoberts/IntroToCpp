@@ -1,81 +1,21 @@
 ﻿#include <iostream>
 
-int main()
+void IfStatement(int x, int y)
 {
-	//1. What do the following conditionals evaluate to if "A = true and B = false"
-	// A || B
-	//True
-
-	// A || B
-	//True
-
-	// !A
-	//False
-
-	// !(A && A)
-	//False
-
-	// B && A
-	//False
-
-
-	//(!B || A)
-	//True
-
-
-	//(!B || A)
-	//True
-
-
-
-
-	//2. Write an if statement that assigns 100 to the value of x when y is equal to zero.
-	//////////////////
-	// Go to line 62===>
-	//////////////////
-
-
-	//3. Write a program that accepts an integer that represents the month of the year. 
-	//It should then display the number of days in that month. If a number that doesn’t correspond 
-	//to a month is entered then the program should display an error message. You must use a switch statement
-
-	///////////////////
-	// Go to line 73 ===>
-	///////////////////
-
-
-
-
-	//4. Redo problem 3 using if statements
-	
-	//////////////////
-	// Go to line 136 ===>
-	//////////////////
-
-	//5. Convert problem 2 into a ternary operator
-	/////////////////
-	// Go to line 187 ===>
-	/////////////////
-                 system("pause");
-}
-
-int questionTwo()
-{
+	// Write an if statement that assigns 100 to the value of x when y is equal to zero.
 	int x = 100, y = 0;
-
-
-	if (x = 100) {
+	if (x = 100) 
+	{
 		std::cout << "x is equal to 100 \n";
 	}
 	else (y = 0);
 	std::cout << "y is equal to 0 \n";
-
-	return 0;
+	return 0 ;
 }
 
-int questionThree()
+int SwitchMonths(int month)
 {
-
+	
 	// take in user input
 	std::cout << "Pick a number between 1 and 12. And I will tell you what month it is.\n";
 
@@ -83,7 +23,7 @@ int questionThree()
 
 	// the number must be between 1 and 12
 
-	int month;
+	
 	std::cin >> month;
 	switch (month)
 	{
@@ -129,9 +69,66 @@ int questionThree()
 		std::cout << "Do you need mental help? I said 1 through 12.\n";
 		break;
 
-		return 0;
+		return month;
 	}
 }
+
+int main()
+{
+	//1. What do the following conditionals evaluate to if "A = true and B = false"
+	// A || B
+	//True
+
+	// A || B
+	//True
+
+	// !A
+	//False
+
+	// !(A && A)
+	//False
+
+	// B && A
+	//False
+
+
+	//(!B || A)
+	//True
+
+
+	//(!B || A)
+	//True
+
+
+
+
+	//2. Write an if statement that assigns 100 to the value of x when y is equal to zero.
+	{
+		std::cout << IfStatement << std::endl;
+	}
+
+	//3. Write a program that accepts an integer that represents the month of the year. 
+	//It should then display the number of days in that month. If a number that doesn’t correspond 
+	//to a month is entered then the program should display an error message. You must use a switch statement
+	{
+		std::cout << SwitchMonths << std::endl;
+	}
+	
+
+
+
+	//4. Redo problem 3 using if statements
+	
+	
+
+	//5. Convert problem 2 into a ternary operator
+	/////////////////
+	// Go to line 187 ===>
+	/////////////////
+                 system("pause");
+}
+
+
 
 int questionFour()
 {
@@ -181,7 +178,7 @@ int questionFour()
 
 
 
-	system("pause");
+	return 0;
 }
 
 int questionFive()
@@ -194,5 +191,5 @@ int questionFive()
 
 
 
-	system("pause");
+	return 0;
 }

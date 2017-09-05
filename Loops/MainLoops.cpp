@@ -1,6 +1,14 @@
 #include <iostream>
 
 
+void Questions()
+{
+
+
+
+
+}
+
 
 
 int main()
