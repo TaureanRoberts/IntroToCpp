@@ -10,7 +10,7 @@ void IfStatement(int x, int y)
 	}
 	else (y = 0);
 	std::cout << "y is equal to 0 \n";
-	return 0 ;
+	return ;
 }
 
 int SwitchMonths(int month)

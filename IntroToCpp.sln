@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "arrays", "arrays\arrays.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dragon", "dragon\dragon.vcxproj", "{69DC610A-5CFE-483C-B91E-B90E3F6A66B8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Functions", "Functions\Functions.vcxproj", "{BA1E9E76-6041-4644-87D4-3BDB67AB32F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{69DC610A-5CFE-483C-B91E-B90E3F6A66B8}.Release|x64.Build.0 = Release|x64
 		{69DC610A-5CFE-483C-B91E-B90E3F6A66B8}.Release|x86.ActiveCfg = Release|Win32
 		{69DC610A-5CFE-483C-B91E-B90E3F6A66B8}.Release|x86.Build.0 = Release|Win32
+		{BA1E9E76-6041-4644-87D4-3BDB67AB32F3}.Debug|x64.ActiveCfg = Debug|x64
+		{BA1E9E76-6041-4644-87D4-3BDB67AB32F3}.Debug|x64.Build.0 = Debug|x64
+		{BA1E9E76-6041-4644-87D4-3BDB67AB32F3}.Debug|x86.ActiveCfg = Debug|Win32
+		{BA1E9E76-6041-4644-87D4-3BDB67AB32F3}.Debug|x86.Build.0 = Debug|Win32
+		{BA1E9E76-6041-4644-87D4-3BDB67AB32F3}.Release|x64.ActiveCfg = Release|x64
+		{BA1E9E76-6041-4644-87D4-3BDB67AB32F3}.Release|x64.Build.0 = Release|x64
+		{BA1E9E76-6041-4644-87D4-3BDB67AB32F3}.Release|x86.ActiveCfg = Release|Win32
+		{BA1E9E76-6041-4644-87D4-3BDB67AB32F3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
