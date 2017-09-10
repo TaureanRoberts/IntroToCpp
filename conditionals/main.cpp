@@ -3,14 +3,14 @@
 void IfStatement(int x, int y)
 {
 	// Write an if statement that assigns 100 to the value of x when y is equal to zero.
-	int x = 100, y = 0;
+	
 	if (x = 100) 
 	{
 		std::cout << "x is equal to 100 \n";
 	}
 	else (y = 0);
 	std::cout << "y is equal to 0 \n";
-	return ;
+	
 }
 
 int SwitchMonths(int month)
