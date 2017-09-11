@@ -26,8 +26,12 @@ int main()
 	for (int i = 0; i < 3; i++)
 		std::cout << dragonChart[3][7] << i << std::endl;
 	{
+	
+	
+	}
 		for (int j = 0; j < 7; j++)
 			std::cout << dragonChart[3][7] << j << std::endl;
+		{
 	}
 	system("cls");
 

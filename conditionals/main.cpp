@@ -3,23 +3,21 @@
 int IfStatement()
 {
 	// Write an if statement that assigns 100 to the value of x when y is equal to zero.
-<<<<<<< HEAD
+
 	int x = 100;
 		int y = 0;
-=======
+
 	
->>>>>>> origin/master
+
 	if (x = 100) 
 	{
 		std::cout << "x is equal to 100 \n";
 	}
 	else (y = 0);
 	std::cout << "y is equal to 0 \n";
-<<<<<<< HEAD
+
 	return 0;
-=======
-	
->>>>>>> origin/master
+
 }
 
 int SwitchMonths()
@@ -192,7 +190,7 @@ int main()
 
 	//4. Redo problem 3 using if statements
 	{
-		std::cout << 
+		std::cout << std::endl;
 	}
 	
 
