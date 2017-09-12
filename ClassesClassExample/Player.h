@@ -19,15 +19,15 @@ public:
 
 class Player
 {
-
+private:
 	Point2D mPos;
 	char mName[255]; 
 	int mLevel;
 
 public:
 	Player();
-	Player(Point2D, char[255]);
-	void MovePlayer(Point2D);
-	bool LevelUp(Player partyTime);
+	Player(Point2D pos, char name[]);
+	void MovePlayer(Point2D direction);
+	bool LevelUp();
 	
 };

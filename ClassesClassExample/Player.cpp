@@ -4,6 +4,6 @@
 Player::Player()
 {
 	mPos = Point2D();
-	strcpy_s(Point2D();
+	strcpy_s(mName, playerTwo );
 
 }

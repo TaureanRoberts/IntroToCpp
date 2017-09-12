@@ -30,6 +30,10 @@ int main()
 
 	Point2D testThree = testOne.Add(testTwo);
 	Point2D testFour = testThree.Add(testTwo);
+	
+	Player playerOne;
+	Player playerTwo(testTwo "Dylan");
+	Player playerThree(Point2D(1,5), "Bob" );
 
 	system("pause");
 }
