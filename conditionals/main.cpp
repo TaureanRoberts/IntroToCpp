@@ -1,6 +1,6 @@
 ﻿#include <iostream>
 
-int IfStatement()
+int IfStatement(int x, int y)
 {
 	// Write an if statement that assigns 100 to the value of x when y is equal to zero.
 
@@ -16,7 +16,7 @@ int IfStatement()
 	else (y = 0);
 	std::cout << "y is equal to 0 \n";
 
-	return 0;
+	return x, y;
 
 }
 
@@ -175,7 +175,7 @@ int main()
 
 	//2. Write an if statement that assigns 100 to the value of x when y is equal to zero.
 	{
-		std::cout << IfStatement << std::endl;
+		
 	}
 
 	//3. Write a program that accepts an integer that represents the month of the year. 

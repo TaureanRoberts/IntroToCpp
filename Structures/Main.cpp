@@ -1,6 +1,7 @@
 #include <iostream>
 #include <time.h>
 
+//Assignment:
 //Modify your answer to the vehicle problem to allow the user to search for vehicles
 //by year, name, and maker. 
 
@@ -67,7 +68,7 @@ void CarInfo(Vehicle vehicle)
 	std::cout << "Number of Seats :" << vehicle.mNumSeats << std::endl;
 	std::cout << "Number of Tires :" << vehicle.mNumTires << std::endl;
 }
-
+/*
 struct Item
 {
 	char mName[255];
@@ -95,7 +96,7 @@ void PrintShopInventory(Shop shopData)
 		system("cls");
 	}
 }
-
+*/
 int main()
 {
 	
@@ -190,7 +191,7 @@ int main()
 		std::cout << "New player name: " << players[i].mName << " New player score: " << players[i].mScore << std::endl;
 	}
 	*/
-	/*
+	
 		Vehicle ebayAutomotive[15];
 		ebayAutomotive[0] = { 2, 4, "Porshe", "911", 2016 };
 		ebayAutomotive[1] = { 2, 4, "McLaren", "720s", 2018 };
@@ -222,41 +223,38 @@ int main()
 			{
 				CarInfo(ebayAutomotive[i]);
 				std::cout << std::endl;
-					carFound = true;
+				carFound = true;
+
+				/*
+				Shop blacksmith = { 2000 };
+				blacksmith.mItems[0] = { "Stick", 1, 1 };
+				blacksmith.mItems[1] = { "Wand", 5, 1  };
+				blacksmith.mItems[2] = { "Knife", 15, 1 };
+				blacksmith.mItems[3] = { "Sword",25 ,1  };
+				blacksmith.mItems[4] = { "Excalibur", 1500, 1 };
+
+				PrintShopInventory(blacksmith);
+
+				blacksmith.mItems[0].mCost = 6;
+				std::cout << "Changing Prices" << std::endl;
+				system("pause");
+				PrintShopInventory(blacksmith);
+				*/
+				system("pause");
 			}
-		}
-		if (carFound == false)
-			std::cout << "No results found for: " << std::endl;
+			/*
+			//Create a Function with a return type of Player that takes in 0 arguments.
+			Player CreatPlayer()
+			{
+				Player newPlayer = {};
+				return newPlayer;
+			}
+
+
+			Player CreatePlayer(int health, int strength, float movementSpeed)
+			{
+				Player newPlayer = {};
+				return newPlayer;
+			}
 			*/
-
-Shop blacksmith = { 2000 };
-blacksmith.mItems[0] = { "Stick", 1, 1 };
-blacksmith.mItems[1] = { "Wand", 5, 1  };
-blacksmith.mItems[2] = { "Knife", 15, 1 };
-blacksmith.mItems[3] = { "Sword",25 ,1  };
-blacksmith.mItems[4] = { "Excalibur", 1500, 1 };
-
-PrintShopInventory(blacksmith);
-
-blacksmith.mItems[0].mCost = 6;
-std::cout << "Changing Prices" << std::endl;
-system("pause");
-PrintShopInventory(blacksmith);
-
-	system("pause");
-}
-/*
-//Create a Function with a return type of Player that takes in 0 arguments.
-Player CreatPlayer()
-{
-	Player newPlayer = {};
-	return newPlayer;
-}
-
-
-Player CreatePlayer(int health, int strength, float movementSpeed)
-{
-	Player newPlayer = {};
-	return newPlayer;
-}
-*/
+		}
