@@ -1,12 +1,9 @@
 #include "Player.h"
+#include <iostream>
 
-void Player::TakeDamage(int amount)
+Player::Player()
 {
-	mHealth -= amount;
-
-}
-
-void Player::ModifyLevel(int value)
-{
+	mPos = Point2D();
+	strcpy_s(Point2D();
 
 }

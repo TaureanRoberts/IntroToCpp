@@ -1,10 +1,11 @@
 #include <iostream>
 #include "Player.h"
 #include "Vehicle.h"
+#include "Point2D.h"
 
 int main()
 {
-
+/*
 	Player tj;
 	tj.mHealth = 100;
 	tj.mGender = true;
@@ -21,7 +22,14 @@ int main()
 	tjCar.mName[255]; "Sentra";
 	tjCar.mNumSeats = 4; 
 	tjCar.mSpecialEdition = false;
-
 	tjCar.IsSpecialEdition(false);
+	*/
+	
+	Point2D testOne;
+	Point2D testTwo(20, 2);
+
+	Point2D testThree = testOne.Add(testTwo);
+	Point2D testFour = testThree.Add(testTwo);
+
 	system("pause");
 }
