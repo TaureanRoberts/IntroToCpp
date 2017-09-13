@@ -32,8 +32,10 @@ int main()
 	Point2D testFour = testThree.Add(testTwo);
 	
 	Player playerOne;
-	Player playerTwo(testTwo "Dylan");
+	Player playerTwo(testTwo, "Dylan");
 	Player playerThree(Point2D(1,5), "Bob" );
+
+	bool test = playerOne.LevelUp();
 
 	system("pause");
 }
