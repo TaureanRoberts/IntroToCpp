@@ -1,16 +1,17 @@
 #include <iostream>
 
 
-int countingToTen(int myArray[10])
+void countingToTen(int myNumbers[])
 {
-
-	int myNumbers[10] = { 1,2,3,4,5,6,7,8,9,10 };
-	//Prints the numbers 1 - 10
-
-	return myNumbers[10];
+	{
+		int myNumbers[10] = { 1,2,3,4,5,6,7,8,9,10 };
+		//Prints the numbers 1 - 10
+		
+	}
+     countingToTen;
 }
 
-int goingToFive(int mynumero[], int len)
+void goingToFive(int mynumero[], int len)
 {
 
 	int myNumero[10] = { 1,2,3,4,5,6,7,8,9,10 };
@@ -22,8 +23,7 @@ int goingToFive(int mynumero[], int len)
 
 
 
-	return 0;
-
+	goingToFive;
 }
 
 int countdownToSpace()
@@ -33,15 +33,8 @@ int countdownToSpace()
 	for (int i = 10; i >= 1; i -= 1)
 	{
 		std::cout << i << std::endl;
-
-
-
-
 	}
-
-
-
-	return 0;
+	return countingDown[10];
 }
 
 int arrangeNumbers(const int fiveNumbs[], int leastTwoGreat)
@@ -49,24 +42,22 @@ int arrangeNumbers(const int fiveNumbs[], int leastTwoGreat)
 	//6. Create a an array of size five then ask the user to input five 
 	//number into the array. Display the largest and smallest numbers 
 	//to the console.
-	
+	std::cout << "Input five numbers and I will arrange them" << std::endl;
+
 	int bigToSmall[5];
-	int a;
-	int b;
-	int c;
-	int d;
-	int e;
+	bigToSmall[0];
+	bigToSmall[1];
+	bigToSmall[2];
+	bigToSmall[3];
+	bigToSmall[4];
+
+
 	for (int i : bigToSmall)
 	{
-		std::cin >> a;
+		std::cin >> bigToSmall[5];
 		std::cout << i << std::endl;
 	}
-
-	
-
-
 	return bigToSmall[5];
-
 }
 
 int threeTimesGrids()
@@ -80,8 +71,6 @@ int threeTimesGrids()
 		{
 			std::cout << myTripleArray << std::endl;
 		}
-
-
 		return 0;
 	}
 }

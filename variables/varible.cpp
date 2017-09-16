@@ -1,19 +1,42 @@
 #include <iostream>
-using namespace std;
+int numSwap(int a, int b, int temp)
+{
+    std::cout << "a = " << a << " b = " << b << std::endl;
+	temp = a;
+	a = b;
+	b = temp;
+	std::cout << "a = " << a << "b = " << b << std::endl;
+	return a + b;
+}
+
+int avgOfFiveNum()
+{
+int a, b, c, d, e, avg;
+	std::cout << "Please enter FIVE numbers: \n";
+	std::cin >> a;
+	std::cin >> b;
+	std::cin >> c;
+	std::cin >> d;
+	std::cin >> e;
+	avg = (a + b + c + d + e) / 5;
+	std::cout << "This is he average of the choosen numbers: " << avg;
+	return a, b, c, d, e, avg;
+}
+
 int main()
 {
 	//Class Example
 	//Interger data type
-	int myNumber = 9;
+	////int myNumber = 9;
 
 	//Floating type data type
-	float decimal = 0.5f;
+	////float decimal = 0.5f;
 
 	//Character data type
-	char myLetter = 'd';
+	////char myLetter = 'd';
 
 	//Boolean data type
-	bool trueFalse = false;
+	////bool trueFalse = false;
 
 
 	//You can not print to the console unless the problem specifies.
@@ -23,7 +46,7 @@ int main()
 	//char avgHeightOfStudentsInClass_;
 
 	//b) The tax rate for incomes over $65000
-    // char rateOfTaxForIncomesOver65k;
+	// char rateOfTaxForIncomesOver65k;
 
 	//c) The tax rate for incomes below $5000
 	//char rateOfTaxForIncomesUnder5k;
@@ -33,7 +56,7 @@ int main()
 
 	//2. Select suitable data types to hold the following values :
 	//a) 121
-    //int myNumber = 121;
+	//int myNumber = 121;
 
 	//b) 9.4
 	//float decimal = 9.4f;
@@ -50,50 +73,27 @@ int main()
 	//and store the result in variables called “a” and “b” print the result to screen.Write code 
 	//that swaps the values for these variables, then print the variables “a” and “b” again.
 	//You should comment your code.
-	
-	int a = 3;
-	int b = 7;
-	int temp;
 
-	cout << "a = " << a << " b = " << b << endl;
-
-	temp = a;
-	a = b; 
-	b = temp;
-
-	cout << "a = " << a << "b = " << b << endl;
 	
 
-	return 0;
-	
-	
+
 	//4. Ask the user for 5 numbers and output the average of these numbers.		
 	
-	int a, b, c, d, e, avg;
-	cout << "Please enter FIVE numbers: \n";
-		cin >> a;
-		cin >> b;
-		cin >> c;
-		cin >> d;
-		cin >> e;
-		avg = (a + b + c + d + e) / 5;
 
-			cout << "This is he average of the choosen numbers: " << avg;
-	    
 			
 	//5. Redo question 3 but allows the user to input the values to be swapped and provide information
 	//in the console proving the data was swapped.
-				
-			int a, b, temp;
-			cout << "Enter two random numbers: \n";
-			cin >> a >> b;
-			cout << "The numbers before the switch: " << a << " " << b << endl;
-			temp = a;
-			a = b;
-			b = temp;
+	{
+		int a, b, temp;
+		std::cout << "Enter two random numbers: \n";
+		std::cin >> a >> b;
+	    std::cout << "The numbers before the switch: " << a << " " << b << std::endl;
+		temp = a;
+		a = b;
+		b = temp;
 
-			cout << "Numbers after the switch:  " << a << " " << b << endl;
-			
+		std::cout << "Numbers after the switch:  " << a << " " << b << std::endl;
+	}
 
 	system("pause");
 
