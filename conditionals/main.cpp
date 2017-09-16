@@ -10,7 +10,7 @@ void IfStatement(int x, int y)
 	}
 	else (y = 0);
 	std::cout << "y is equal to 0 \n";
-	
+	system("pause");
 }
 
 int SwitchMonths(int month)
@@ -73,6 +73,57 @@ int SwitchMonths(int month)
 	}
 }
 
+int questionFour()
+{
+	std::cout << "Same as before, pick a number from 1 to 12 for a month\n";
+	float monthTwo;
+	std::cin >> monthTwo;
+
+
+	if (monthTwo == 1)
+		std::cout << "January has 31 days\n";
+
+	else if (monthTwo == 2)
+		std::cout << "Febuary has 28 days\n";
+
+	else if (monthTwo == 3)
+		std::cout << "March has 31 days\n";
+
+	else if (monthTwo == 4)
+		std::cout << "April has 30 days\n";
+
+	else if (monthTwo == 5)
+		std::cout << "May has 31 days\n";
+
+	else if (monthTwo == 6)
+		std::cout << "June has 30 days\n";
+
+	else if (monthTwo == 7)
+		std::cout << "July has 31 days\n";
+
+	else if (monthTwo == 8)
+		std::cout << "August has 31 days\n";
+
+	else if (monthTwo == 9)
+		std::cout << "September has 30 days\n";
+
+	else if (monthTwo == 10)
+		std::cout << "October has 31 days\n";
+
+	else if (monthTwo == 11)
+		std::cout << "November has 30 days\n";
+
+	else if (monthTwo == 12)
+		std::cout << "December has 31 days\n";
+
+	else
+		std::cout << "Im thinking that you cant follow simple rules\n";
+
+
+
+	return 0;
+}
+
 int main()
 {
 	//1. What do the following conditionals evaluate to if "A = true and B = false"
@@ -128,58 +179,6 @@ int main()
                  system("pause");
 }
 
-
-
-int questionFour()
-{
-	std::cout << "Same as before, pick a number from 1 to 12 for a month\n";
-	float monthTwo;
-	std::cin >> monthTwo;
-
-
-	if (monthTwo == 1)
-		std::cout << "January has 31 days\n";
-
-	else if (monthTwo == 2)
-		std::cout << "Febuary has 28 days\n";
-
-	else if (monthTwo == 3)
-		std::cout << "March has 31 days\n";
-
-	else if (monthTwo == 4)
-		std::cout << "April has 30 days\n";
-
-	else if (monthTwo == 5)
-		std::cout << "May has 31 days\n";
-
-	else if (monthTwo == 6)
-		std::cout << "June has 30 days\n";
-
-	else if (monthTwo == 7)
-		std::cout << "July has 31 days\n";
-
-	else if (monthTwo == 8)
-		std::cout << "August has 31 days\n";
-
-	else if (monthTwo == 9)
-		std::cout << "September has 30 days\n";
-
-	else if (monthTwo == 10)
-		std::cout << "October has 31 days\n";
-
-	else if (monthTwo == 11)
-		std::cout << "November has 30 days\n";
-
-	else if (monthTwo == 12)
-		std::cout << "December has 31 days\n";
-
-	else
-		std::cout << "Im thinking that you cant follow simple rules\n";
-
-
-
-	return 0;
-}
 
 int questionFive()
 {
