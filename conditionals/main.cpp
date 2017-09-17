@@ -15,13 +15,13 @@ int IfStatement(int x, int y)
 	}
 	else (y = 0);
 	std::cout << "y is equal to 0 \n";
-<<<<<<< HEAD
+
 	system("pause");
-=======
+
 
 	return x, y;
 
->>>>>>> origin/master
+
 }
 
 int SwitchMonths()
@@ -135,7 +135,7 @@ int questionFour()
 	return 0;
 }
 
-<<<<<<< HEAD
+
 int main()
 {
 	//1. What do the following conditionals evaluate to if "A = true and B = false"
@@ -185,15 +185,11 @@ int main()
 	
 
 	//5. Convert problem 2 into a ternary operator
-	/////////////////
-	// Go to line 187 ===>
-	/////////////////
+	
                  system("pause");
 }
 
 
-=======
->>>>>>> origin/master
 int questionFive()
 {
 	int x = 100;
