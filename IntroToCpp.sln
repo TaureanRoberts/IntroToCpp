@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iZombie", "NewPlayer\NewPla
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cat.cpp", "Cat.cpp\Cat.cpp.vcxproj", "{E71CD378-29F2-45C8-9887-29486F99C247}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iSeeZombie", "iSeeZombie\iSeeZombie.vcxproj", "{3060C03E-C919-4AAE-873E-C8C31C49897F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{E71CD378-29F2-45C8-9887-29486F99C247}.Release|x64.Build.0 = Release|x64
 		{E71CD378-29F2-45C8-9887-29486F99C247}.Release|x86.ActiveCfg = Release|Win32
 		{E71CD378-29F2-45C8-9887-29486F99C247}.Release|x86.Build.0 = Release|Win32
+		{3060C03E-C919-4AAE-873E-C8C31C49897F}.Debug|x64.ActiveCfg = Debug|x64
+		{3060C03E-C919-4AAE-873E-C8C31C49897F}.Debug|x64.Build.0 = Debug|x64
+		{3060C03E-C919-4AAE-873E-C8C31C49897F}.Debug|x86.ActiveCfg = Debug|Win32
+		{3060C03E-C919-4AAE-873E-C8C31C49897F}.Debug|x86.Build.0 = Debug|Win32
+		{3060C03E-C919-4AAE-873E-C8C31C49897F}.Release|x64.ActiveCfg = Release|x64
+		{3060C03E-C919-4AAE-873E-C8C31C49897F}.Release|x64.Build.0 = Release|x64
+		{3060C03E-C919-4AAE-873E-C8C31C49897F}.Release|x86.ActiveCfg = Release|Win32
+		{3060C03E-C919-4AAE-873E-C8C31C49897F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
