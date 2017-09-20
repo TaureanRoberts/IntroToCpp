@@ -30,5 +30,8 @@ int main()
 		zombies[rand()%5].SetHealth(zombies[rand() % 5].GetHealth() - zombies[rand() % 5].GetAttack());
 	}
 	
+	//Fighting Mode
+
+
 	system("pause");
 }

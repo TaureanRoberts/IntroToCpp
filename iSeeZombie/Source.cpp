@@ -3,16 +3,17 @@
 ​
 Zombie::Zombie()
 {
-	 mHealth = (100) ;
-	 mAttackPower = (100);
-}
-​
+	 mHealth = rand()%1000 ;
+	 mAttackPower = rand()%1000;
+}​
+
 Zombie::Zombie(int hp, int atk)
 {
-	int GetAttack = atk;
-	int GetHealth = hp;
+	 mAttackPower = atk;
+	 mHealth = hp;
 }
   
+
 ​
 int Zombie::GetHealth()
 {

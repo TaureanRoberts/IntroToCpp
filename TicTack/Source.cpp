@@ -1,43 +1,54 @@
 #include <iostream>
 
-char matrix[3][3] = {'1', '2', '3', '4', '5', '6', '7', '8', '9' };
-char player = 'X';
+char matrix[3][3] = {'7', '8', '9', '4', '5', '6', '1', '2', '3' };
+char player = 'X'; //Player 1 that starts the game
 
 void Draw()
 {
+	//Making a playing grid
 	std::cout << " Tj's Tic Tac Toe! " << std::endl;
 	for (int i = 0; i < 3; i++)
 	{
 		for (int j = 0; j < 3; j++)
 		{
-			std::cout << matrix[i][j] << " ";
+			std::cout << matrix[i][j] << "   ";
 		}
 		std::cout << std::endl;
 	}
 }
+
+
 void Input()
 {
-	int a;
+	int x;
 	std::cout << "Player one Pick a number for the spot for your piece: " << std::endl;
-	std::cin >> a;
+	std::cin >> x;
+	
+	//Row
+	for (int a = 0; a < 9; a++)
+	{
+		
+	}
 
-	if (a == 1)
+	//Column
+
+	if (x == 7)
 		matrix[0][0] = player;
-	else if (a == 2)
+	else if (x == 8)
 		matrix[0][1] = player;
-	else if (a == 3)
+	else if (x == 9)
 		matrix[0][2] = player;
-	else if (a == 4)
+	else if (x == 4)
 		matrix[1][0] = player;
-	else if (a == 5)
+	else if (x == 5)
 		matrix[1][1] = player;
-	else if (a == 6)
+	else if (x == 6)
 		matrix[1][2] = player;
-	else if (a == 7)
+	else if (x == 1)
 		matrix[2][0] = player;
-	else if (a == 8)
+	else if (x == 2)
 		matrix[2][1] = player;
-	else if (a == 9)
+	else if (x == 3)
 		matrix[2][2] = player;
 	else
 		std::cout << "Not an aplicable choice." << std::endl;
@@ -50,6 +61,7 @@ void playerPlacement()
 	else
 		player = 'X';
 }
+
 
 
 int main()

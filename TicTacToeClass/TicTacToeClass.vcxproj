@@ -19,10 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E71CD378-29F2-45C8-9887-29486F99C247}</ProjectGuid>
-    <RootNamespace>Catcpp</RootNamespace>
+    <ProjectGuid>{2BD22B84-8CB0-44B0-9123-EA2BF2CEE1BE}</ProjectGuid>
+    <RootNamespace>TicTacToeClass</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>Cats</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -111,11 +110,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Cat.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainTTT.cpp" />
+    <ClCompile Include="TicTac.cpp" />
+    <ClCompile Include="Point3T.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Cat.h" />
+    <ClInclude Include="ExAndOhs.h" />
+    <ClInclude Include="Point3T.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
