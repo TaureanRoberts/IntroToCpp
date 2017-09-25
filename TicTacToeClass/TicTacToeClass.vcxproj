@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3TGame.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="3TClass.cpp" />
+    <ClCompile Include="3TGame.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{2BD22B84-8CB0-44B0-9123-EA2BF2CEE1BE}</ProjectGuid>
     <RootNamespace>TicTacToeClass</RootNamespace>
@@ -109,15 +116,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="MainTTT.cpp" />
-    <ClCompile Include="TicTac.cpp" />
-    <ClCompile Include="Point3T.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="ExAndOhs.h" />
-    <ClInclude Include="Point3T.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
