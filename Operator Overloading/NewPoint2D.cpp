@@ -47,20 +47,42 @@ Point2D Point2D::operator*(float other)
 
 float Point2D::GetX()
 {
-
-	return 0.0f;
+	int GetX = (0,0);
+	return 0;
 }
 
 float Point2D::GetY()
-{
-	return 0.0f;
+{ 
+    int GetY= (0, 0);
+	return 0;
 }
 
 void Point2D::PrintPoint()
 {
+	float playSpot;
+	mX = (0,0);
+	mY = (0,0);
 }
 
 bool Point2D::operator==(const Point2D & other)
 {
+	
+	if (mX == mY);
+	{
+		for (mX = 0; mX != 0; mX++);
+
+	}
 	return false;
+}
+
+
+int main()
+{
+	Point2D testOne;
+	Point2D testTwo(0, 1);
+
+	Point2D testThree = testOne.GetX(testTwo);
+	Point2D testFour = testThree.GetX(testTwo);
+
+	system("pause");
 }

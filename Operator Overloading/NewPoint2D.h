@@ -14,5 +14,5 @@ public:
 	float GetX();                                //Returns the values of mX
 	float GetY();                                //Returns the values of mY
 	void PrintPoint();                           //Displays information that has been placed in the points
-	bool operator == (const Point2D &other);     //
+	bool operator == (const Point2D &other);     //Checks to see if X and Y are equivilant
 };
