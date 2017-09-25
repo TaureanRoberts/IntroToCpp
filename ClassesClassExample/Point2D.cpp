@@ -1,20 +1,22 @@
+
 #include "Point2D.h"
 
-Point2D::Point2D()
+Point2D2D::Point2D2D()
 {
 	mX = 0;
 	mY = 0;
 }
 
-Point2D::Point2D(float X, float Y)
+Point2D2D::Point2D2D(float X, float Y)
 {
 	mX = X;
 	mY = Y;
 }
 
-Point2D Point2D::Add(Point2D point)
+
+Point2D2D Point2D2D::Add(Point2D2D point)
 {
-	Point2D newPoint;
+	Point2D2D newPoint;
 	newPoint.mX = mX + point.mX;
 	newPoint.mY = mY + point.mY;
 	return newPoint;

@@ -33,6 +33,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iSeeZombie", "iSeeZombie\iS
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TicTacToeClass", "TicTacToeClass\TicTacToeClass.vcxproj", "{2BD22B84-8CB0-44B0-9123-EA2BF2CEE1BE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClassPerson", "ClassPerson\ClassPerson.vcxproj", "{8F594DE8-AFD4-4DD0-9836-3900BDA0A293}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Operator Overloading", "Operator Overloading\Operator Overloading.vcxproj", "{C800988D-64C2-4189-B77E-D6D9BB91BC15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -161,6 +165,22 @@ Global
 		{2BD22B84-8CB0-44B0-9123-EA2BF2CEE1BE}.Release|x64.Build.0 = Release|x64
 		{2BD22B84-8CB0-44B0-9123-EA2BF2CEE1BE}.Release|x86.ActiveCfg = Release|Win32
 		{2BD22B84-8CB0-44B0-9123-EA2BF2CEE1BE}.Release|x86.Build.0 = Release|Win32
+		{8F594DE8-AFD4-4DD0-9836-3900BDA0A293}.Debug|x64.ActiveCfg = Debug|x64
+		{8F594DE8-AFD4-4DD0-9836-3900BDA0A293}.Debug|x64.Build.0 = Debug|x64
+		{8F594DE8-AFD4-4DD0-9836-3900BDA0A293}.Debug|x86.ActiveCfg = Debug|Win32
+		{8F594DE8-AFD4-4DD0-9836-3900BDA0A293}.Debug|x86.Build.0 = Debug|Win32
+		{8F594DE8-AFD4-4DD0-9836-3900BDA0A293}.Release|x64.ActiveCfg = Release|x64
+		{8F594DE8-AFD4-4DD0-9836-3900BDA0A293}.Release|x64.Build.0 = Release|x64
+		{8F594DE8-AFD4-4DD0-9836-3900BDA0A293}.Release|x86.ActiveCfg = Release|Win32
+		{8F594DE8-AFD4-4DD0-9836-3900BDA0A293}.Release|x86.Build.0 = Release|Win32
+		{C800988D-64C2-4189-B77E-D6D9BB91BC15}.Debug|x64.ActiveCfg = Debug|x64
+		{C800988D-64C2-4189-B77E-D6D9BB91BC15}.Debug|x64.Build.0 = Debug|x64
+		{C800988D-64C2-4189-B77E-D6D9BB91BC15}.Debug|x86.ActiveCfg = Debug|Win32
+		{C800988D-64C2-4189-B77E-D6D9BB91BC15}.Debug|x86.Build.0 = Debug|Win32
+		{C800988D-64C2-4189-B77E-D6D9BB91BC15}.Release|x64.ActiveCfg = Release|x64
+		{C800988D-64C2-4189-B77E-D6D9BB91BC15}.Release|x64.Build.0 = Release|x64
+		{C800988D-64C2-4189-B77E-D6D9BB91BC15}.Release|x86.ActiveCfg = Release|Win32
+		{C800988D-64C2-4189-B77E-D6D9BB91BC15}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
