@@ -66,13 +66,7 @@ void Point2D::PrintPoint()
 
 bool Point2D::operator==(const Point2D & other)
 {
-	
-	if (mX == mY);
-	{
-		for (mX = 0; mX != 0; mX++);
-
-	}
-	return false;
+	return (mX == mX && mY == mY)? true : false;
 }
 
 
