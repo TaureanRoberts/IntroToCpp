@@ -1,13 +1,13 @@
 #include <iostream>
+#include "NewPlayer.h"
 #include "NewPoint2D.h"
+
 
 
 int main()
 {
-	Point2D testOne;
-	Point2D testTwo(0.0f, 1.0f);
 
-	
-
+	Player *testOne = new Player();
+	testOne->SetPosition(Point2D(4, 3));
 	system("pause");
 }
