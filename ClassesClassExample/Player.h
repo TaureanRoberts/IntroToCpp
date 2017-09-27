@@ -17,7 +17,7 @@ public:
 };
 */
 
-class Player
+class Player2D
 {
 private:
 	Point2D2D mPos;
@@ -25,8 +25,8 @@ private:
 	int mLevel;
 
 public:
-	Player();
-	Player(Point2D2D pos, char name[]);
+	Player2D();
+	Player2D(Point2D2D pos, char name[]);
 	void MovePlayer(Point2D2D direction);
 	bool LevelUp();
 	
