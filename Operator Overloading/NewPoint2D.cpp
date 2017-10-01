@@ -26,7 +26,7 @@ Point2D Point2D::operator-(const Point2D & other)
 	Point2D subPoint;
 	subPoint.mX = mX - other.mX;
 	subPoint.mY = mY - other.mY;
-	return Point2D();
+	return subPoint;
 }
 
 Point2D Point2D::operator*(const Point2D & other)
@@ -34,7 +34,7 @@ Point2D Point2D::operator*(const Point2D & other)
 	Point2D multiPoint;
 	multiPoint.mX = mX * other.mX;
 	multiPoint.mY = mY * other.mY;
-	return Point2D();
+	return multiPoint;
 }
 
 Point2D Point2D::operator*(float other)
@@ -42,26 +42,26 @@ Point2D Point2D::operator*(float other)
 	Point2D pointScale;
 	pointScale.mX * (mX, mY);
 	pointScale.mY * (mX, mY);
-	return Point2D();
+	return pointScale;
 }
 
 float Point2D::GetX()
 {
-	int GetX = (0,0);
-	return 0;
+	return mX;
 }
 
 float Point2D::GetY()
 { 
-    int GetY= (0, 0);
-	return 0;
+	return mY;
 }
 
 void Point2D::PrintPoint()
 {
-	float playSpot;
-	mX = (0,0);
-	mY = (0,0);
+	
+	Point2D showPlace;
+	std::cout << showPlace.mX << std::endl; 
+	std::cout << showPlace.mY << std::endl;
+    
 }
 
 bool Point2D::operator==(const Point2D & other)
@@ -70,13 +70,3 @@ bool Point2D::operator==(const Point2D & other)
 }
 
 
-int main()
-{
-	Point2D testOne;
-	Point2D testTwo(0.0f, 1.0f);
-
-	Point2D testThree = testOne.GetX() + testOne.GetY(testTwo);
-	Point2D testFour = testThree.GetX(testTwo);
-
-	system("pause");
-}
