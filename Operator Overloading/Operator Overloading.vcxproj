@@ -19,10 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="NewPlayere.h" />
     <ClInclude Include="NewPoint2D.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="NewPlayer.cpp" />
     <ClCompile Include="NewPoint2D.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

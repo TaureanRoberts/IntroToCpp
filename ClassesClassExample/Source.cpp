@@ -31,9 +31,9 @@ int main()
 	Point2D2D testThree = testOne.Add(testTwo);
 	Point2D2D testFour = testThree.Add(testTwo);
 	
-	Player playerOne;
-	Player playerTwo(testTwo, "Dylan");
-	Player playerThree(Point2D2D(1,5), "Bob" );
+	Player2D playerOne;
+	Player2D playerTwo(testTwo, "Dylan");
+	Player2D playerThree(Point2D2D(1,5), "Bob" );
 
 	bool test = playerOne.LevelUp();
 

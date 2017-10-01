@@ -33,15 +33,15 @@ struct Student
 	int mAge;
 };
 
-struct Player
+struct Player2D
 {
 	char mName[255];
 	int mScore;
 };
 
-Player CreatePlayer()
+Player2D CreatePlayer()
 {
-	Player newPlayer = {};
+	Player2D newPlayer = {};
 	std::cout << "Choose a name for your character: " << std::endl;
 	std::cin >> newPlayer.mName;
 	std::cout << "Enter the players score: " << std::endl;
