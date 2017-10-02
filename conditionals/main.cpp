@@ -16,7 +16,7 @@ int IfStatement(int x, int y)
 	else (y = 0);
 	std::cout << "y is equal to 0 \n";
 
-	system("pause");
+	
 
 
 	return x, y;
@@ -135,6 +135,18 @@ int questionFour()
 	return 0;
 }
 
+int questionFive()
+{
+	int x = 100;
+	int y = 0;
+
+	(x = 100, y = 0) ? 100 : 0;
+
+
+
+
+	return 0;
+}
 
 int main()
 {
@@ -190,18 +202,7 @@ int main()
 }
 
 
-int questionFive()
-{
-	int x = 100;
-	int y = 0;
 
-	(x = 100, y = 0) ? 100 : 0;
-
-
-
-
-	return 0;
-}
 
 int main()
 {
@@ -249,13 +250,15 @@ int main()
 
 	//4. Redo problem 3 using if statements
 	{
-		std::cout << std::endl;
+		std::cout << questionFour << std::endl;
 	}
 	
 
 	//5. Convert problem 2 into a ternary operator
-	/////////////////
-	// Go to line 187 ===>
-	/////////////////
-                 system("pause");
+	
+
+
+
+
+      system("pause");
 }

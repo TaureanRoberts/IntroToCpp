@@ -3,6 +3,11 @@
 #include "NewPoint2D.h"
 #include "Player.h"
 
+void Dungeon::GenRooms()
+{ 
+
+}
+
 Dungeon::Dungeon()
 {
     mRooms = new Point2D();
@@ -14,13 +19,13 @@ Dungeon::Dungeon()
 
 Dungeon::Dungeon(Player *player, int rows, int cols)
 {
-
 	mRooms = new Point2D(rows, cols);
+
 }
 
 bool Dungeon::Checkplayer()
 {
-
+	
 	return false;
 }
 
