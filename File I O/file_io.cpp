@@ -1,18 +1,18 @@
 #include <iostream>
 #include <fstream>
 
+
 using namespace std;
 
 int main()
-{
-	file.open("GameProg.txt", ios_base::out | ios_base::_Nocreate);
+{   
 	fstream file;
-    cout << "please enter two names." << endl;
+    file << "please enter two names." << endl;
+    file.open("GameProg.txt", ios_base::in);
 
 	if (file.is_open())
 	{
-		file << "Taurean Roberts \n";
-
+		file << "Taurean Roberts" << endl;
 	}
 
 	else
@@ -21,6 +21,8 @@ int main()
 	}
 	file.close();
  
+
+
 
 	system("pause");
 }

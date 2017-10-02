@@ -33,6 +33,7 @@
     <ProjectGuid>{C800988D-64C2-4189-B77E-D6D9BB91BC15}</ProjectGuid>
     <RootNamespace>OperatorOverloading</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>Wumpus_World</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
