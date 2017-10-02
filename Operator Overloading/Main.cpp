@@ -1,6 +1,7 @@
 #include <iostream>
-#include "NewPlayer.h"
+#include "Player.h"
 #include "NewPoint2D.h"
+#include "Dungeon.h"
 
 
 

@@ -19,10 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="NewPlayere.h" />
+    <ClInclude Include="Dungeon.h" />
     <ClInclude Include="NewPoint2D.h" />
+    <ClInclude Include="Player.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Dungeon.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="NewPlayer.cpp" />
     <ClCompile Include="NewPoint2D.cpp" />
