@@ -1,5 +1,7 @@
 #include <iostream>
+#include <string>
 #include "Strings.h"
+
 /*
 MyString::MyString()
 {
@@ -36,18 +38,21 @@ MyString MyString::LowerString(MyString lhs)
 
 MyString::MyString()
 {
-
+	mString = new char[255];
 }
 
 MyString::MyString(char *string)
 {
-	mString == string;
+	mString = string;
 }
 
 void MyString::GetLength()
 {
-	MyString myArray[89];
-
+	
+	while (int i = '\0')
+	{
+		 
+	}
 }
 
 MyString MyString::ToUpper()
@@ -56,28 +61,36 @@ MyString MyString::ToUpper()
 	char i = 65;
 	do
 	{
-
-		i += 2;
-		iter += 2;
+		i++;
+		iter += 0;
 	} while (i <= 90);
 	return MyString();
 }
 
 MyString MyString::ToLower()
 {
+    char j = 97;
+	char iter = 1;
 
+	do
+	{
+		j++;
+			iter += 0;
+	}while(j <= 122);
 	return MyString();
 }
 
 bool MyString::SameString() //compares values in two instances of the string
 {
-	char someString = 0;
-	char equalString = 1;
-
-	do
+	if (  )
 	{
 
-	}while();
+	}
+	else
+	{
+
+	}
+
 	return false;
 }
 
