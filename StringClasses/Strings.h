@@ -16,7 +16,7 @@ public:
 
 	MyString();
 	MyString(char *string);  
-    void GetLength();      //Returns the numbers of characters stored in the string
+    int GetLength();      //Returns the numbers of characters stored in the string
 	MyString ToUpper();    //Gives the string some uppercase letters
 	MyString ToLower();    //Gives the string some lowercase letters
 	bool SameString();     //Compares the strings together

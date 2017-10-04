@@ -46,51 +46,41 @@ MyString::MyString(char *string)
 	mString = string;
 }
 
-void MyString::GetLength()
+int MyString::GetLength()
 {
-	
-	while (int i = '\0')
+	int i = 0;                     //Gives "i" definition and a value to be passed in
+ 	while (mString[i] != '\0')     //Checks if the array in place of "i" in the array it checks to see is it the null char.
 	{
-		 
+		i+=1;	                   //Counts the place of "i" of an array by one time along the array until the '\0'.
 	}
+	return i;                      //Returns the places that was moved to up to the '\0' was reached.
 }
 
 MyString MyString::ToUpper()
 {
-	char iter = 0;
-	char i = 65;
-	do
+	MyString tempString;
+	for (int i = 0; i <= GetLength(); i += 1)     //
 	{
-		i++;
-		iter += 0;
-	} while (i <= 90);
-	return MyString();
+		if (mString[i] >= 65 && mString[i] <= 90) // checks to see if the character is in the desired case.
+		{
+			
+		}
+	}
 }
 
 MyString MyString::ToLower()
 {
-    char j = 97;
-	char iter = 1;
-
-	do
+	MyString tempString;
+	for (int i = 0; i <= GetLength(); i += 1)      //
 	{
-		j++;
-			iter += 0;
-	}while(j <= 122);
-	return MyString();
+		if (mString[i] >= 97 && mString[i] <= 122) // checks to see if the character is in the desired case.
+		{
+
+		}
+	}
 }
 
 bool MyString::SameString() //compares values in two instances of the string
 {
-	if (  )
-	{
-
-	}
-	else
-	{
-
-	}
-
-	return false;
+	return (ToUpper && ToLower) ? true : false; // Change when get back home.
 }
-
