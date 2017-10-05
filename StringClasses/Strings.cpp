@@ -67,6 +67,7 @@ MyString MyString::ToUpper()
 			Upper[i] = mString[i] - 32;
 		}
 	}
+	return  MyString();
 }
 
 MyString MyString::ToLower()
@@ -79,16 +80,23 @@ MyString MyString::ToLower()
 			Lower[i] = mString[i] + 32;
 		}
 	}
+	return MyString();
 }
 
 bool MyString::CompareStrings(MyString &other) //compares values in two instances of the string
 {
-	char *Compare = new char[];
-	for (int i = 0; i != GetLength(); i++)
+	if (this->GetLength() != other.GetLength())
 	{
-		
+		return false;
 	}
-	return false;  
+	for (int i = 0; i <= GetLength(); i++)
+	{
+		if (mString[i] != other.mString[i])
+		{
+			return false;
+		}
+	}
+	return true;  
 }
 
 
