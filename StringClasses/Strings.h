@@ -19,6 +19,6 @@ public:
     int GetLength();      //Returns the numbers of characters stored in the string
 	MyString ToUpper();    //Gives the string some uppercase letters
 	MyString ToLower();    //Gives the string some lowercase letters
-	bool SameString();     //Compares the strings together
+	bool CompareStrings(MyString &other);     //Compares the strings together
 	
 };
