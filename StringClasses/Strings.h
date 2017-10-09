@@ -5,14 +5,7 @@ class MyString
 private:
 	const char *mString;
 public:
-	/*
-	MyString();
-	MyString(int length);
-	int mLenght();
-    void GetIndex();
-	MyString UpperString(MyString rhs);
-	MyString LowerString(MyString lhs);
-	*/
+	
 
 	MyString();
 	MyString(char *string);  
