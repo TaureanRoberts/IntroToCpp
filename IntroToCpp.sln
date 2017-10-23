@@ -41,6 +41,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "File_IO", "File I O\File I 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringClasses", "StringClasses\StringClasses.vcxproj", "{D735E478-F544-4EAD-AA33-D29A08694448}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D2AEF6AE-E538-4238-83C8-5D9B585A85A8}"
+	ProjectSection(SolutionItems) = preProject
+		TicTack\Source.cpp = TicTack\Source.cpp
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TicTacToe", "TicTacToe\TicTacToe.vcxproj", "{44FEF1F7-0B43-416B-8547-D015C473D474}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iTicTacToe", "iTicTacToe\iTicTacToe.vcxproj", "{4B7159D9-EBB4-43DE-A23B-40DDAB36B9DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,9 +210,28 @@ Global
 		{D735E478-F544-4EAD-AA33-D29A08694448}.Release|x64.Build.0 = Release|x64
 		{D735E478-F544-4EAD-AA33-D29A08694448}.Release|x86.ActiveCfg = Release|Win32
 		{D735E478-F544-4EAD-AA33-D29A08694448}.Release|x86.Build.0 = Release|Win32
+		{44FEF1F7-0B43-416B-8547-D015C473D474}.Debug|x64.ActiveCfg = Debug|x64
+		{44FEF1F7-0B43-416B-8547-D015C473D474}.Debug|x64.Build.0 = Debug|x64
+		{44FEF1F7-0B43-416B-8547-D015C473D474}.Debug|x86.ActiveCfg = Debug|Win32
+		{44FEF1F7-0B43-416B-8547-D015C473D474}.Debug|x86.Build.0 = Debug|Win32
+		{44FEF1F7-0B43-416B-8547-D015C473D474}.Release|x64.ActiveCfg = Release|x64
+		{44FEF1F7-0B43-416B-8547-D015C473D474}.Release|x64.Build.0 = Release|x64
+		{44FEF1F7-0B43-416B-8547-D015C473D474}.Release|x86.ActiveCfg = Release|Win32
+		{44FEF1F7-0B43-416B-8547-D015C473D474}.Release|x86.Build.0 = Release|Win32
+		{4B7159D9-EBB4-43DE-A23B-40DDAB36B9DB}.Debug|x64.ActiveCfg = Debug|x64
+		{4B7159D9-EBB4-43DE-A23B-40DDAB36B9DB}.Debug|x64.Build.0 = Debug|x64
+		{4B7159D9-EBB4-43DE-A23B-40DDAB36B9DB}.Debug|x86.ActiveCfg = Debug|Win32
+		{4B7159D9-EBB4-43DE-A23B-40DDAB36B9DB}.Debug|x86.Build.0 = Debug|Win32
+		{4B7159D9-EBB4-43DE-A23B-40DDAB36B9DB}.Release|x64.ActiveCfg = Release|x64
+		{4B7159D9-EBB4-43DE-A23B-40DDAB36B9DB}.Release|x64.Build.0 = Release|x64
+		{4B7159D9-EBB4-43DE-A23B-40DDAB36B9DB}.Release|x86.ActiveCfg = Release|Win32
+		{4B7159D9-EBB4-43DE-A23B-40DDAB36B9DB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{44FEF1F7-0B43-416B-8547-D015C473D474} = {D2AEF6AE-E538-4238-83C8-5D9B585A85A8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B1CC7800-82B7-44CA-A184-075D47960605}
