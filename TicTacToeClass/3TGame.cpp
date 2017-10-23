@@ -48,8 +48,6 @@ void TicTacToeGame::playGame()
 	}
 }
 
-
-
 int TicTacToeGame::myColumns()
 {
 	bool isInputBad = true;
