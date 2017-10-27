@@ -29,7 +29,7 @@ int QuestionFive()
 	return countingDown[10];
 }
 
-int QuestionSix()
+void QuestionSix()
 {
 	//6. Create a an array of size five then ask the user to input five 
 	//number into the array. Display the largest and smallest numbers 

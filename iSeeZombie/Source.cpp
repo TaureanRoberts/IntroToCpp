@@ -1,11 +1,10 @@
 ﻿#include <iostream>
 #include "Header.h"
-​
 Zombie::Zombie()
 {
-	 mHealth = rand()%1000 ;
-	 mAttackPower = rand()%1000;
-}​
+	 mHealth = 100;
+	 mAttackPower = 100;
+}
 
 Zombie::Zombie(int hp, int atk)
 {
@@ -13,27 +12,24 @@ Zombie::Zombie(int hp, int atk)
 	 mHealth = hp;
 }
   
-
-​
 int Zombie::GetHealth()
 {
-	int GetHealth = mHealth;
-	return 0;
+	return mHealth;
 }
-​
+
 int Zombie::GetAttack()
 {
-	int GetHealth = mAttackPower;
-	return 0;
+	return mAttackPower;
 }
-​
+
 void Zombie::TakeDamage(int Amount)
 {
-	int Amount(mHealth - mAttackPower);
+	mHealth = Amount;
 }
-​
 bool Zombie::IsDead()
 {
-	
+	if (mHealth <= 0)
+		return true;
+	else
 	return false;
 }
