@@ -1,6 +1,6 @@
 #include <iostream>
 
-void forLoop()
+void QuestionTwo()
 {
 	
 	for (int j = 1; j < 100; j++)
@@ -14,10 +14,9 @@ void forLoop()
 		else
 			std::cout << j << "\n";
 	}
-	forLoop;
 }
 
-void doWhile()
+void QuestionThree()
 {
 	int i = 0;
 	while (i < 100);
@@ -31,10 +30,9 @@ void doWhile()
 		else
 			std::cout << i << "\n";
 	}
-	doWhile;
 }
 
-void countdown()
+void QuestionFour()
 {
 	
 	const int start = 1;
@@ -48,7 +46,6 @@ void countdown()
 		std::cout << number << ' ';
 		number += 2;
 	}
-	countdown;
 }
 
 int main()
@@ -101,17 +98,11 @@ int main()
 	//- For multiples of 3 and 5 print “FizzBuzz”
 	//- Otherwise print the number.
 	//Note, you will need to use the modulus operator (%)
-	{
-		forLoop();
-	}
+	QuestionTwo();
     //3. Repeat problem 2 using a while loop and a do while loop.
     //while loop
-	{
-		doWhile();
-	}
+	QuestionThree();
 	//4. Create a loop that prints all even numbers between 0 and 100, without printing 0 or 100
-	{
-		countdown();
-	}
+	QuestionFour();
     system("pause");
 }

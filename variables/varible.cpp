@@ -1,6 +1,9 @@
 #include <iostream>
-int numSwap(int a, int b, int temp)
+int QuestionThree()
 {
+	int a;
+	int b;
+	int temp;
     std::cout << "a = " << a << " b = " << b << std::endl;
 	temp = a;
 	a = b;
@@ -9,7 +12,7 @@ int numSwap(int a, int b, int temp)
 	return a + b;
 }
 
-int avgOfFiveNum()
+int QuestionFour()
 {
 int a, b, c, d, e, avg;
 	std::cout << "Please enter FIVE numbers: \n";
@@ -21,6 +24,18 @@ int a, b, c, d, e, avg;
 	avg = (a + b + c + d + e) / 5;
 	std::cout << "This is he average of the choosen numbers: " << avg;
 	return a, b, c, d, e, avg;
+}
+
+void QuestionFive()
+{
+    int a, b, temp;
+    std::cout << "Enter two random numbers: \n";
+	std::cin >> a >> b;
+	std::cout << "The numbers before the switch: " << a << " " << b << std::endl;
+	temp = a;
+	a = b;
+	b = temp;
+	std::cout << "Numbers after the switch:  " << a << " " << b << std::endl;
 }
 
 int main()
@@ -43,7 +58,7 @@ int main()
 
 	//1. Select suitable variable types and names for the following examples
 	//a) The average height of students in your class
-	//char avgHeightOfStudentsInClass_;
+	//char avgHeightOfStudentsInClass;
 
 	//b) The tax rate for incomes over $65000
 	// char rateOfTaxForIncomesOver65k;
@@ -73,28 +88,12 @@ int main()
 	//and store the result in variables called “a” and “b” print the result to screen.Write code 
 	//that swaps the values for these variables, then print the variables “a” and “b” again.
 	//You should comment your code.
-
-	
-
-
+	QuestionThree();
 	//4. Ask the user for 5 numbers and output the average of these numbers.		
-	
-
-			
+	QuestionFour();
 	//5. Redo question 3 but allows the user to input the values to be swapped and provide information
 	//in the console proving the data was swapped.
-	{
-		int a, b, temp;
-		std::cout << "Enter two random numbers: \n";
-		std::cin >> a >> b;
-	    std::cout << "The numbers before the switch: " << a << " " << b << std::endl;
-		temp = a;
-		a = b;
-		b = temp;
-
-		std::cout << "Numbers after the switch:  " << a << " " << b << std::endl;
-	}
+	QuestionFive();
 
 	system("pause");
-
 }
